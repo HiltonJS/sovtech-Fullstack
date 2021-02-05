@@ -1,7 +1,7 @@
 import { HttpLink } from "apollo-link-http";
 
 const link = new HttpLink({
-  uri: "https://cux8i.sse.codesandbox.io/graphql"
+  uri: "http://159.89.90.16:4000"
 });
 
 export default link;
