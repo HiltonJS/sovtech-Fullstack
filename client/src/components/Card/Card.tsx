@@ -1,5 +1,5 @@
 import React from "react";
-import Moment from "react-moment";
+
 import {
   Wrapper,
   JokeCard,
@@ -56,7 +56,7 @@ const Card = ({ joke, loading, activeCategory, fetchJoke }: CardProps) => {
                 <JokeTextItemContaier>
                   <JokeText>
                     Updated:
-                    <Moment format="D MMM YYYY">{joke.updated_at}</Moment>
+                 
                   </JokeText>
                 </JokeTextItemContaier>
               </JokeTextContainer>

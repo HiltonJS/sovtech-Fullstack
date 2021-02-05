@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
-import "./styles.css";
+
 
 import Flex from "typescript-styled-flex";
 
-import Navbar from "./components/NavBar/Navbar";
+import Navbar from "./components/NavBar/NavBar";
 import Card from "./components/Card/Card";
 import CategoryBubble from "./components/CategoryBubble/CategoryBubble";
 import { useDispatch, useSelector } from "react-redux";

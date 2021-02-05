@@ -17,7 +17,6 @@
     "graphql-tag": "^2.11.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-moment": "^1.1.1",
     "react-redux": "^7.2.2",
     "react-scripts": "4.0.2",
     "redux-logger": "^3.0.6",
