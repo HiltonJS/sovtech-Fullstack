@@ -1,15 +1,3 @@
-## About
-
-A Graphql api which returns Chuck Noriss jokes from [api.icndb]('http://api.icndb.com').
-
-## Getting started
-
-First clone the repository and install dependencies.
-
-## Adding new (type safe) resolvers
-
-Because we want to have type safe resolvers, it's the easiest to create new resolvers in order described below.
-
 #### Type definitions
 
 When adding new resolvers you should start with adding the `typeDefs` in your (new) `resolver.ts` file like following:
